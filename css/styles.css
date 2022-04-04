@@ -1,0 +1,228 @@
+body {
+      background-color: #142850;
+     }
+
+h1 {
+    color: #DD9866;
+    text-align:center;
+    text-shadow: 1px 1px 1px #333;
+
+    }
+
+h2 {
+    color:#DD9866 ;
+    text-align: center;
+    text-shadow: 1px 1px 1px #333;
+   }
+
+   h3{
+      color: #DD9866;
+      font-family: georgia, serif; 
+      text-shadow: 1px 1px 1px #333;
+   }
+
+hr {
+    border-style:inset;
+    border-color: #8F384D;
+    border-width: 10px;
+    height: 1px;
+    width: 60%;
+   }
+
+p {
+    font-family: 'Century Gothic', 'Gill Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #F4EEE8;
+    line-height: 1.5em;
+   
+
+  }
+
+  p.right{
+    font-family: 'Century Gothic', 'Gill Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #F4EEE8;
+    line-height: 1.5em;
+    margin-left: 50px;
+
+  }
+
+
+.row {
+      display: flex;
+      align-content: center;
+     }
+
+  .column {
+          flex: 100%;
+          padding: 0 5px;
+          align-content: center;
+          }
+
+.column img {
+            
+            width: 100%;
+            height: 30.1%;
+            align-content: center;
+              }
+
+
+.row2 {
+        margin-left:-5px;
+        margin-right:-5px;
+      }
+  
+.column2 {
+         float: left;
+         width: 50%;
+         padding: 5px;
+        }
+
+/*margin left/right auto keeps them centered*/
+    
+
+div.sideways{
+            text-align:center;
+            }
+
+div.sideways ul li{
+                  display:inline;
+                  padding: 30px;
+                  color: #DAE1E7;
+                  }
+label{ 
+  color:#F5CEBE ;
+  font-family: cursive;
+
+ }
+
+ a:link {
+        color: #DAE1E7;
+        background-color: transparent;
+        text-decoration: underline;
+        }
+
+a:visited {
+            color: #DAE1E7;
+            background-color: transparent;
+            text-decoration: none;
+          }
+
+a:hover {
+            color: pink;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+a:active {
+            color: #00909E;
+            background-color: transparent;
+            text-decoration: underline;
+          }
+
+form {
+      width: 80%;
+      margin: 0 auto;
+     }
+
+
+label {
+        width: 25%;
+  /* Positions the label text beside the input */
+       text-align: right;
+       display: inline-block;
+     }
+
+label+input {
+            width: 30%;
+  /* forces input and label to be side by side */
+            margin: 0 27% 0 1%;
+            display: inline-block;
+           }
+
+label.position{
+               text-align: center;
+               }
+
+ul.nav {
+  margin-left: 0;
+  padding-left: 0;
+  text-align: center;
+  text-shadow: 1px 1px 1px #333;
+  font-family: serif;
+        }
+li.nav{
+    display: inline;
+    padding-right: 20px;
+    font-size: 25px;
+}
+
+header img{
+text-align: center;
+position: relative;
+left: 0px;
+top: 45px;
+max-width: 100%;
+width: auto;  
+    
+}
+
+header h1{
+    font: 2.2em;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    
+}
+header hr{
+    width: 25%;
+
+}
+header h2{
+    position: relative;
+    bottom: 15px;
+    left: 10px;
+
+}
+header{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5% 5% 85% 85% / 20%;
+    margin: 0 auto;
+
+}
+header .curve{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-shadow: 1px 1px 1px;
+  background-image: linear-gradient( 720deg, #27496D 10%, #639CD9 80%);
+
+ }
+ #wrapper{
+  width: 1750px;
+  background: #5C6E91;
+  text-align: left;
+  margin: 0 auto;
+  border-radius: 55px;
+      }
+
+.goleft{
+    width: 450px;
+    padding: 15px 80px;
+    float: left;
+}
+.aboutme{
+    margin: 0 0 0 550px;
+    padding: 15px;
+    border-left: 3px solid;
+    border-color:#F9975D;
+
+}

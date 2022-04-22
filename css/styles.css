@@ -17,7 +17,7 @@ h2 {
 
    h3{
       color: #DD9866;
-      font-family: georgia, serif; 
+      font-family: georgia, serif;
       text-shadow: 1px 1px 1px #333;
    }
 
@@ -35,14 +35,14 @@ p {
     text-align: center;
     color: #F4EEE8;
     line-height: 1.5em;
-   
+
 
   }
 
   p.right{
     font-family: 'Century Gothic', 'Gill Sans', Arial, sans-serif;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     color: #F4EEE8;
     line-height: 1.5em;
     margin-left: 50px;
@@ -62,7 +62,7 @@ p {
           }
 
 .column img {
-            
+
             width: 100%;
             height: 30.1%;
             align-content: center;
@@ -73,7 +73,7 @@ p {
         margin-left:-5px;
         margin-right:-5px;
       }
-  
+
 .column2 {
          float: left;
          width: 50%;
@@ -81,7 +81,7 @@ p {
         }
 
 /*margin left/right auto keeps them centered*/
-    
+
 
 div.sideways{
             text-align:center;
@@ -92,7 +92,7 @@ div.sideways ul li{
                   padding: 30px;
                   color: #DAE1E7;
                   }
-label{ 
+label{
   color:#F5CEBE ;
   font-family: cursive;
 
@@ -165,8 +165,8 @@ position: relative;
 left: 0px;
 top: 45px;
 max-width: 100%;
-width: auto;  
-    
+width: auto;
+
 }
 
 header h1{
@@ -174,7 +174,7 @@ header h1{
     position: relative;
     top: 15px;
     left: 10px;
-    
+
 }
 header hr{
     width: 25%;
